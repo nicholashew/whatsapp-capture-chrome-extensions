@@ -1,0 +1,21 @@
+{
+  "name": "WhatsAppMessageLogger",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "Capture WhatsApp Messages",
+  "browser_action": {
+    "default_title": "Capture WhatsApp Messages",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "background",
+    "unlimitedStorage",
+    "downloads"
+  ]
+}
